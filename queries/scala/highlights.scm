@@ -38,7 +38,7 @@
 
 ; val/var definitions/declarations
 (val_definition
-  pattern: (identifier) @variable)
+  pattern: (identifier) @variable @spell)
 
 (var_definition
   pattern: (identifier) @variable)
