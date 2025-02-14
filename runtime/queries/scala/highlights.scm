@@ -1,15 +1,15 @@
 ; CREDITS @stumash (stuart.mashaal@gmail.com)
 (class_definition
-  name: (identifier) @type)
+  name: (identifier) @type @spell)
 
 (enum_definition
-  name: (identifier) @type)
+  name: (identifier) @type @spell)
 
 (object_definition
-  name: (identifier) @type)
+  name: (identifier) @type @spell)
 
 (trait_definition
-  name: (identifier) @type)
+  name: (identifier) @type @spell)
 
 (full_enum_case
   name: (identifier) @type)
@@ -32,16 +32,16 @@
 
 ; types
 (type_definition
-  name: (type_identifier) @type.definition)
+  name: (type_identifier) @type.definition @spell)
 
 (type_identifier) @type
 
 ; val/var definitions/declarations
 (val_definition
-  pattern: (identifier) @variable)
+  pattern: (identifier) @variable @spell)
 
 (var_definition
-  pattern: (identifier) @variable)
+  pattern: (identifier) @variable @spell)
 
 (val_declaration
   name: (identifier) @variable)
@@ -51,10 +51,10 @@
 
 ; method definition
 (function_declaration
-  name: (identifier) @function.method)
+  name: (identifier) @function.method @spell)
 
 (function_definition
-  name: (identifier) @function.method)
+  name: (identifier) @function.method @spell)
 
 ; imports/exports
 (import_declaration
@@ -108,11 +108,11 @@
   function: (identifier) @function.call)
 
 (interpolated_string_expression
-  interpolator: (identifier) @function.call)
+  interpolator: (identifier) @function.call @spell)
 
 ; function definitions
 (function_definition
-  name: (identifier) @function)
+  name: (identifier) @function @spell)
 
 (parameter
   name: (identifier) @variable.parameter)
@@ -153,7 +153,7 @@
 [
   (string)
   (interpolated_string_expression)
-] @string
+] @string @spell
 
 (character_literal) @character
 
@@ -307,4 +307,4 @@
 ; Scala CLI using directives
 (using_directive_key) @variable.parameter
 
-(using_directive_value) @string
+(using_directive_value) @string @spell

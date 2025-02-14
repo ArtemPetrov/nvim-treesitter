@@ -2,11 +2,16 @@
 ; Variables
 (identifier) @variable
 
+; Variable declarations
+(local_variable_declaration
+  declarator: (variable_declarator
+    name: (identifier) @variable @spell))
+
 (underscore_pattern) @character.special
 
 ; Methods
 (method_declaration
-  name: (identifier) @function.method)
+  name: (identifier) @function.method @spell)
 
 (method_invocation
   name: (identifier) @function.method.call)
@@ -15,18 +20,18 @@
 
 ; Parameters
 (formal_parameter
-  name: (identifier) @variable.parameter)
+  name: (identifier) @variable.parameter @spell)
 
 (spread_parameter
   (variable_declarator
-    name: (identifier) @variable.parameter)) ; int... foo
+    name: (identifier) @variable.parameter @spell)) ; int... foo
 
 ; Lambda parameter
 (inferred_parameters
-  (identifier) @variable.parameter) ; (x,y) -> ...
+  (identifier) @variable.parameter @spell) ; (x,y) -> ...
 
 (lambda_expression
-  parameters: (identifier) @variable.parameter) ; x -> ...
+  parameters: (identifier) @variable.parameter @spell) ; x -> ...
 
 ; Operators
 [
@@ -69,19 +74,19 @@
 
 ; Types
 (interface_declaration
-  name: (identifier) @type)
+  name: (identifier) @type @spell)
 
 (annotation_type_declaration
-  name: (identifier) @type)
+  name: (identifier) @type @spell)
 
 (class_declaration
-  name: (identifier) @type)
+  name: (identifier) @type @spell)
 
 (record_declaration
-  name: (identifier) @type)
+  name: (identifier) @type @spell)
 
 (enum_declaration
-  name: (identifier) @type)
+  name: (identifier) @type @spell)
 
 (constructor_declaration
   name: (identifier) @type)
@@ -114,7 +119,7 @@
 ; Fields
 (field_declaration
   declarator: (variable_declarator
-    name: (identifier) @variable.member))
+    name: (identifier) @variable.member @spell))
 
 (field_access
   field: (identifier) @variable.member)
@@ -142,7 +147,7 @@
   name: (identifier) @attribute)
 
 ; Literals
-(string_literal) @string
+(string_literal) @string @spell
 
 (escape_sequence) @string.escape
 
@@ -302,7 +307,7 @@
   [
     "\\{"
     "}"
-  ] @punctuation.special)
+  ] @punctuation.special @spell)
 
 ; Exceptions
 [
