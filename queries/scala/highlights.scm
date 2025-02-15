@@ -1,15 +1,15 @@
 ; CREDITS @stumash (stuart.mashaal@gmail.com)
 (class_definition
-  name: (identifier) @type)
+  name: (identifier) @type @spell)
 
 (enum_definition
-  name: (identifier) @type)
+  name: (identifier) @type @spell)
 
 (object_definition
-  name: (identifier) @type)
+  name: (identifier) @type @spell)
 
 (trait_definition
-  name: (identifier) @type)
+  name: (identifier) @type @spell)
 
 (full_enum_case
   name: (identifier) @type)
@@ -32,7 +32,7 @@
 
 ; types
 (type_definition
-  name: (type_identifier) @type.definition)
+  name: (type_identifier) @type.definition @spell)
 
 (type_identifier) @type
 
@@ -41,7 +41,7 @@
   pattern: (identifier) @variable @spell)
 
 (var_definition
-  pattern: (identifier) @variable)
+  pattern: (identifier) @variable @spell)
 
 (val_declaration
   name: (identifier) @variable)
@@ -51,10 +51,10 @@
 
 ; method definition
 (function_declaration
-  name: (identifier) @function.method)
+  name: (identifier) @function.method @spell)
 
 (function_definition
-  name: (identifier) @function.method)
+  name: (identifier) @function.method @spell)
 
 ; imports/exports
 (import_declaration
@@ -112,7 +112,7 @@
 
 ; function definitions
 (function_definition
-  name: (identifier) @function)
+  name: (identifier) @function @spell)
 
 (parameter
   name: (identifier) @variable.parameter)
