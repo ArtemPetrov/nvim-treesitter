@@ -108,7 +108,7 @@
   function: (identifier) @function.call)
 
 (interpolated_string_expression
-  interpolator: (identifier) @function.call)
+  interpolator: (identifier) @function.call @spell)
 
 ; function definitions
 (function_definition
@@ -153,7 +153,7 @@
 [
   (string)
   (interpolated_string_expression)
-] @string
+] @string @spell
 
 (character_literal) @character
 
@@ -308,4 +308,4 @@
 ; Scala CLI using directives
 (using_directive_key) @variable.parameter
 
-(using_directive_value) @string
+(using_directive_value) @string @spell
