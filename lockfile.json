@@ -54,7 +54,7 @@
     "revision": "2a265d69a4caf57108a73ad2ed1e6922dd2f998c"
   },
   "c_sharp": {
-    "revision": "71011c87dc75ab996063eec72644bba7c3edbef5"
+    "revision": "b5eb5742f6a7e9438bee22ce8026d6b927be2cd7"
   },
   "cairo": {
     "revision": "6238f609bea233040fe927858156dee5515a0745"
@@ -144,7 +144,7 @@
     "revision": "26e95de449d772bc2dd4f0382580f84e2a0754d6"
   },
   "earthfile": {
-    "revision": "6695a2dfea5f8d9076b11f9bebcac8184e405e67"
+    "revision": "ae378d9d1306e9a967698516041f6f8803db5592"
   },
   "ebnf": {
     "revision": "8e635b0b723c620774dfb8abf382a7f531894b40"
@@ -174,10 +174,10 @@
     "revision": "8495d106154741e6d35d37064f864758ece75de6"
   },
   "enforce": {
-    "revision": "9db7a49f3d73222c05b75dcfa8892f5e93542d1e"
+    "revision": "cf853e5f56f1babe5ec573e356f6fbb4784bf5c1"
   },
   "erlang": {
-    "revision": "9cea919877741b2ed87cf215c0a06feb9a1930bf"
+    "revision": "370cea629eb62a8686504b9fb3252a5e1ae55313"
   },
   "facility": {
     "revision": "e4bfd3e960de9f4b4648acb1c92e9b95b47d8cfb"
@@ -210,7 +210,7 @@
     "revision": "fad2e175099a45efbc98f000cc196d3674cc45e0"
   },
   "fsharp": {
-    "revision": "ad824dea984734406b50699c5f388a7412e85946"
+    "revision": "9308e58bec0394232a8d4abdd92eeaa387aefc89"
   },
   "func": {
     "revision": "f780ca55e65e7d7360d0229331763e16c452fc98"
@@ -363,7 +363,7 @@
     "revision": "962568c9efa71d25720ab42c5d36e222626ef3a6"
   },
   "inko": {
-    "revision": "0b08a8f976456a9271f70d4682143328d7224115"
+    "revision": "f58a87ac4dc6a7955c64c9e4408fbd693e804686"
   },
   "ipkg": {
     "revision": "8d3e9782f2d091d0cd39c13bfb3068db0c675960"
@@ -441,7 +441,7 @@
     "revision": "f99011a3554213b654985a4b0a65b3b032ec4621"
   },
   "liquid": {
-    "revision": "23ac814111e2b4b4b083e2c92219af2d5b74d13d"
+    "revision": "d68a255c393cfefa9d3185023e2f1684a52907ed"
   },
   "liquidsoap": {
     "revision": "8e51fa63ddb93ac179d4e34a311d3d3f03780b42"
@@ -486,7 +486,7 @@
     "revision": "c5fffb8edd39f22644084ab3f73a924a75721ee3"
   },
   "mlir": {
-    "revision": "65bca19232744b920859ce682cd830b5006b8ccd"
+    "revision": "2a8476371ff4f8b9e451d702033fdf9410fc1a16"
   },
   "muttrc": {
     "revision": "173b0ab53a9c07962c9777189c4c70e90f1c1837"
@@ -519,7 +519,7 @@
     "revision": "14e6da1627aaef21d2b2aa0c37d04269766dcc1d"
   },
   "nu": {
-    "revision": "d0b26e45525016ef8e6f2ced05852437c06a00ca"
+    "revision": "2a153c88d5d44d96653057c7cc14292f4e641bef"
   },
   "objc": {
     "revision": "181a81b8f23a2d593e7ab4259981f50122909fda"
@@ -539,11 +539,8 @@
   "odin": {
     "revision": "d2ca8efb4487e156a60d5bd6db2598b872629403"
   },
-  "org": {
-    "revision": "64cfbc213f5a83da17632c95382a5a0a2f3357c1"
-  },
   "pascal": {
-    "revision": "d0ebabefaea9ac3f6fc3004cf08cd121b66da9e4"
+    "revision": "78426d96bde7114af979e314283e45d087603428"
   },
   "passwd": {
     "revision": "20239395eacdc2e0923a7e5683ad3605aee7b716"
@@ -648,7 +645,7 @@
     "revision": "6c9bbcfdf5f0f553d9ebc01750a3aa247a37b8aa"
   },
   "razor": {
-    "revision": "a47cd8ca148685629739a4ab69f58864800fbdab"
+    "revision": "fe46ce5ea7d844e53d59bc96f2175d33691c61c5"
   },
   "rbs": {
     "revision": "de893b166476205b09e79cd3689f95831269579a"
@@ -780,7 +777,7 @@
     "revision": "395006713db3bbb90d267ebdfcbf1881b399b05c"
   },
   "swift": {
-    "revision": "1ebc09c38f41d6aab7dd65ca0f8ea032ced0364f"
+    "revision": "d56d844952f7317ca87c3ff9012b868def80d9ba"
   },
   "sxhkdrc": {
     "revision": "440d5f913d9465c9c776a1bd92334d32febcf065"
@@ -870,7 +867,7 @@
     "revision": "ad9b638b914095320de85d59c49ab271603af048"
   },
   "v": {
-    "revision": "92cb593652173dbb1ffb34ce48874d779850aabc"
+    "revision": "154017bdd3a0eb0130a989823f5c1da263b239f3"
   },
   "vala": {
     "revision": "97e6db3c8c73b15a9541a458d8e797a07f588ef4"

@@ -469,7 +469,7 @@ list.dtd = {
 list.earthfile = {
   install_info = {
     url = "https://github.com/glehmann/tree-sitter-earthfile",
-    files = { "src/parser.c" },
+    files = { "src/parser.c", "src/scanner.c" },
   },
   maintainers = { "@glehmann" },
 }
@@ -1579,13 +1579,6 @@ list.odin = {
     files = { "src/parser.c", "src/scanner.c" },
   },
   maintainers = { "@amaanq" },
-}
-
-list.org = {
-  install_info = {
-    url = "https://github.com/milisims/tree-sitter-org",
-    files = { "src/parser.c", "src/scanner.c" },
-  },
 }
 
 list.pascal = {
