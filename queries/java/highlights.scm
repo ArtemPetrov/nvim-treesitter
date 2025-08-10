@@ -142,7 +142,7 @@
   name: (identifier) @attribute)
 
 ; Literals
-(string_literal) @string
+(string_literal) @string @spell
 
 (escape_sequence) @string.escape
 
@@ -299,7 +299,7 @@
   [
     "\\{"
     "}"
-  ] @punctuation.special)
+  ] @punctuation.special @spell)
 
 ; Exceptions
 [
