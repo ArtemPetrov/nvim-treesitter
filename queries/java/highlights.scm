@@ -1,6 +1,6 @@
 ; CREDITS @maxbrunsfeld (maxbrunsfeld@gmail.com)
 ; Variables
-(identifier) @variable
+(identifier) @variable @spell
 
 (underscore_pattern) @character.special
 
@@ -15,7 +15,7 @@
 
 ; Parameters
 (formal_parameter
-  name: (identifier) @variable.parameter)
+  name: (identifier) @variable.parameter @stell)
 
 (spread_parameter
   (variable_declarator
@@ -23,10 +23,10 @@
 
 ; Lambda parameter
 (inferred_parameters
-  (identifier) @variable.parameter) ; (x,y) -> ...
+  (identifier) @variable.parameter @spell) ; (x,y) -> ...
 
 (lambda_expression
-  parameters: (identifier) @variable.parameter) ; x -> ...
+  parameters: (identifier) @variable.parameter @spell) ; x -> ...
 
 ; Operators
 [
@@ -117,7 +117,7 @@
     name: (identifier) @variable.member @spell))
 
 (field_access
-  field: (identifier) @variable.member)
+  field: (identifier) @variable.member @spell)
 
 [
   (boolean_type)
