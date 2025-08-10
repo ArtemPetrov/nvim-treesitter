@@ -1,6 +1,6 @@
 ; CREDITS @maxbrunsfeld (maxbrunsfeld@gmail.com)
 ; Variables
-(identifier) @variable @spell
+(identifier) @variable
 
 (underscore_pattern) @character.special
 
@@ -117,7 +117,7 @@
     name: (identifier) @variable.member @spell))
 
 (field_access
-  field: (identifier) @variable.member @spell)
+  field: (identifier) @variable.member)
 
 [
   (boolean_type)
