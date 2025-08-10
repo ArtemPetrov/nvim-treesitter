@@ -15,7 +15,7 @@
 
 ; Parameters
 (formal_parameter
-  name: (identifier) @variable.parameter @stell)
+  name: (identifier) @variable.parameter @spell)
 
 (spread_parameter
   (variable_declarator
