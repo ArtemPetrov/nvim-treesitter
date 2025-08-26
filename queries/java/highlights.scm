@@ -127,7 +127,7 @@
 ] @type.builtin
 
 ; Variables
-((identifier) @constant
+((identifier) @constant @spell
   (#lua-match? @constant "^[A-Z_][A-Z%d_]+$"))
 
 (this) @variable.builtin
