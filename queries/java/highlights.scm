@@ -2,6 +2,11 @@
 ; Variables
 (identifier) @variable
 
+; Variable declarations
+(local_variable_declaration
+  declarator: (variable_declarator
+    name: (identifier) @variable @spell))
+
 (underscore_pattern) @character.special
 
 ; Methods
@@ -127,7 +132,7 @@
 ] @type.builtin
 
 ; Variables
-((identifier) @constant @spell
+((identifier) @constant
   (#lua-match? @constant "^[A-Z_][A-Z%d_]+$"))
 
 (this) @variable.builtin
