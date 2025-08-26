@@ -1,6 +1,6 @@
 ; CREDITS @maxbrunsfeld (maxbrunsfeld@gmail.com)
 ; Variables
-(identifier) @variable @spell
+(identifier) @variable
 
 (underscore_pattern) @character.special
 
